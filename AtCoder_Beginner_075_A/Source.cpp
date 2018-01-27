@@ -17,7 +17,7 @@ int main() {
 	v.resize(num);
 
 	for (auto&& x : v) {
-		std::cin >> x;
+		std::cin >> x;    //push_back()‚Åfor•¶‚ð‰ñ‚µ‚Ä‚à—Ç‚¢‚ª‚±‚Á‚¿‚Ì•û‚ª’Z‚¢‚½‚ß
 	}
 
 	for (int i = 0; i < v.size(); i++) {
